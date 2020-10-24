@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Fundamentals</string>
+    <string name="login">Login</string>
+    <string name="enter_your_email">Enter Your Email</string>
 </resources>

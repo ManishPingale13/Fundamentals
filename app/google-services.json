@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1012096089342",
+    "firebase_url": "https://androidfundamentalswithkt.firebaseio.com",
+    "project_id": "androidfundamentalswithkt",
+    "storage_bucket": "androidfundamentalswithkt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012096089342:android:ebab04ff6c48d229a8f9af",
+        "android_client_info": {
+          "package_name": "com.example.fundamentals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012096089342-rcpv4pk9jaavk446sv6v309uk4lhub20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_zD2GFxsmhBbzDB5UYYXz8hY0FwcwJvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012096089342-rcpv4pk9jaavk446sv6v309uk4lhub20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
