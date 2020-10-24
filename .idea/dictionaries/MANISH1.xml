@@ -2,6 +2,9 @@
   <dictionary name="MANISH1">
     <words>
       <w>currentuser</w>
+      <w>permissionbutton</w>
+      <w>permissionstoreq</w>
+      <w>requestpermissions</w>
     </words>
   </dictionary>
 </component>
