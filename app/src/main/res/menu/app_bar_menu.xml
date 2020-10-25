@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/addcontact"
+        android:icon="@drawable/ic_add_person"
+        android:title="Add contact"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_favorite"
+        android:title="Favourite"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/ic_settings"
+        android:title="Feedback"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/rateus"
+        android:title="Rate us"
+        app:showAsAction="never" />
+
+</menu>

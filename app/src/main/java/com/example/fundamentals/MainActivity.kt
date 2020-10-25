@@ -5,7 +5,10 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import com.google.firebase.auth.FirebaseAuth
@@ -60,9 +63,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<out String>,
-        grantResults: IntArray
+        requestCode: Int, permissions: Array<out String>, grantResults: IntArray
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if (requestCode == 0 && grantResults.isNotEmpty()) {
@@ -82,5 +83,26 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.app_bar_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.settings ->
+                Toast.makeText(this, "Clicked Settings", Toast.LENGTH_SHORT).show()
+            R.id.addcontact ->
+                Toast.makeText(this, "Clicked Add Person", Toast.LENGTH_SHORT).show()
+            R.id.favorite ->
+                Toast.makeText(this, "Clicked Favourites", Toast.LENGTH_SHORT).show()
+            R.id.rateus ->
+                Toast.makeText(this, "Clicked Rate us", Toast.LENGTH_SHORT).show()
+            R.id.feedback ->
+                Toast.makeText(this, "Clicked feedback", Toast.LENGTH_SHORT).show()
+        }
+        return true
     }
 }
