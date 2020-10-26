@@ -4,4 +4,6 @@
     <string name="enter_your_email">Enter Your Email</string>
     <string name="permissions">Permissions</string>
     <string name="permission">Permissions!</string>
+    <string name="dialog_1">Dialog 1</string>
+    <string name="dialog_2">Dialog 2</string>
 </resources>
