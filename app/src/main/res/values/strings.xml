@@ -6,4 +6,6 @@
     <string name="permission">Permissions!</string>
     <string name="dialog_1">Dialog 1</string>
     <string name="dialog_2">Dialog 2</string>
+    <string name="dialog_3">Dialog 3</string>
+    <string name="title">Title</string>
 </resources>

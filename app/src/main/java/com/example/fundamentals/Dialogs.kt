@@ -28,7 +28,7 @@ class Dialogs(var context: Context) {
             .setSingleChoiceItems(list, 0) { _, i ->
                 Toast.makeText(context, "You clicked on ${list[i]}", Toast.LENGTH_SHORT).show()
             }
-            .setPositiveButton("Accept") { _, i ->
+            .setPositiveButton("Accept") { _, _ ->
                 Toast.makeText(context, "You Accepted ", Toast.LENGTH_SHORT).show()
             }
             .setNegativeButton("Decline") { _, _ ->

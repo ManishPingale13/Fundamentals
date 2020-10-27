@@ -10,6 +10,7 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -24,8 +25,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         auth = Firebase.auth
 
-        val Dialogs = Dialogs(this)
+        var todolist = mutableListOf(
+            ToDo("Coding", true),
+            ToDo("Cycling", true),
+            ToDo("Recycling", false),
+            ToDo("Reading", true),
+            ToDo("Calling doctor ", false),
+            ToDo("Playing", false)
+        )
 
+        val adapter = TodoAdapter(todolist)
+        myrecycleview.adapter = adapter
+        myrecycleview.layoutManager = LinearLayoutManager(this)
+
+        val Dialogs = Dialogs(this)
 
         d1.setOnClickListener {
             Dialogs.Dialog1()
