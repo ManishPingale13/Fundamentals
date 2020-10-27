@@ -25,7 +25,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         auth = Firebase.auth
 
-        var todolist = mutableListOf(
+
+        //RecyclerView Code
+        val todolist = mutableListOf(
             ToDo("Coding", true),
             ToDo("Cycling", true),
             ToDo("Recycling", false),
@@ -34,6 +36,7 @@ class MainActivity : AppCompatActivity() {
             ToDo("Playing", false)
         )
 
+        //Setting Adapter
         val adapter = TodoAdapter(todolist)
         myrecycleview.adapter = adapter
         myrecycleview.layoutManager = LinearLayoutManager(this)
@@ -74,7 +77,7 @@ class MainActivity : AppCompatActivity() {
     ) == PackageManager.PERMISSION_GRANTED
 
     private fun requestpermissions() {
-        var permissionstoreq = mutableListOf<String>()
+        val permissionstoreq = mutableListOf<String>()
         if (!Permission1())
             permissionstoreq.add(Manifest.permission.CAMERA)
         if (!Permission2())
