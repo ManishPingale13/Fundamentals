@@ -8,4 +8,10 @@
     <string name="dialog_2">Dialog 2</string>
     <string name="dialog_3">Dialog 3</string>
     <string name="title">Title</string>
+    <string name="fragment">Fragment</string>
+    <string name="fragment_1">Fragment 1</string>
+    <string name="fragment_2">Fragment 2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragmnet">Second Fragmnet</string>
 </resources>

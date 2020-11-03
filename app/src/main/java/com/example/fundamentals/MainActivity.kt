@@ -55,6 +55,11 @@ class MainActivity : AppCompatActivity() {
             Dialogs.Dialog3()
         }
 
+        fragment.setOnClickListener {
+            val intent = Intent(this, FragmentsActivity::class.java)
+            startActivity(intent)
+        }
+
         permissionbutton.setOnClickListener {
             requestpermissions()
         }
