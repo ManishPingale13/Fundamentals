@@ -1,7 +1,8 @@
-package com.example.fundamentals
+package com.example.fundamentals.Fragment
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.fundamentals.R
 import kotlinx.android.synthetic.main.activity_fragments.*
 
 class FragmentsActivity : AppCompatActivity() {

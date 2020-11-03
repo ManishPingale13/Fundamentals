@@ -14,4 +14,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="first_fragment">First Fragment</string>
     <string name="second_fragmnet">Second Fragmnet</string>
+    <string name="home">Home</string>
+    <string name="message">Message</string>
+    <string name="person">Person</string>
+    <string name="bottom_nav">Bottom Nav</string>
+    <string name="messages_fragment">Messages Fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="users_fragment">Users Fragment</string>
 </resources>

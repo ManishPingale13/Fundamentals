@@ -3,13 +3,19 @@
     <words>
       <w>addcontactdialog</w>
       <w>banglore</w>
+      <w>bottomnav</w>
       <w>currentuser</w>
       <w>firstfragment</w>
+      <w>framelayout</w>
       <w>messi</w>
       <w>multichdilog</w>
       <w>mumbai</w>
+      <w>mybottomnav</w>
+      <w>mybottomnavigation</w>
       <w>mycheckbox</w>
       <w>myfragment</w>
+      <w>myframelay</w>
+      <w>mynavigation</w>
       <w>myrecycleview</w>
       <w>optiondialog</w>
       <w>permissionbutton</w>
@@ -17,6 +23,7 @@
       <w>requestpermissions</w>
       <w>secondfragment</w>
       <w>todolist</w>
+      <w>txtperm</w>
     </words>
   </dictionary>
 </component>

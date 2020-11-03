@@ -1,4 +1,4 @@
-package com.example.fundamentals
+package com.example.fundamentals.RecyclerView
 
 data class ToDo(
     var title: String,

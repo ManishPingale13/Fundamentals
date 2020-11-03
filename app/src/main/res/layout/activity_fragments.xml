@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentsActivity">
+    tools:context=".Fragment.FragmentsActivity">
 
     <Button
         android:id="@+id/f1"

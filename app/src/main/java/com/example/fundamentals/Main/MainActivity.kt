@@ -1,4 +1,4 @@
-package com.example.fundamentals
+package com.example.fundamentals.Main
 
 import android.Manifest
 import android.content.Intent
@@ -11,6 +11,13 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.fundamentals.BottomNavigation.Bottom_Nav
+import com.example.fundamentals.Fragment.FragmentsActivity
+import com.example.fundamentals.Login.LoginActivity
+import com.example.fundamentals.R
+import com.example.fundamentals.RecyclerView.ToDo
+import com.example.fundamentals.RecyclerView.TodoAdapter
+import com.example.fundamentals.Utils.Dialogs
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -62,6 +69,11 @@ class MainActivity : AppCompatActivity() {
 
         permissionbutton.setOnClickListener {
             requestpermissions()
+        }
+
+        bottomnav.setOnClickListener {
+            val intent = Intent(this, Bottom_Nav::class.java)
+            startActivity(intent)
         }
 
     }

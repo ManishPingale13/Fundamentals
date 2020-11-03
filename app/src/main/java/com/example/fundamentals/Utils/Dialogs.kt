@@ -1,8 +1,9 @@
-package com.example.fundamentals
+package com.example.fundamentals.Utils
 
 import android.app.AlertDialog
 import android.content.Context
 import android.widget.Toast
+import com.example.fundamentals.R
 
 class Dialogs(var context: Context) {
 
@@ -51,7 +52,7 @@ class Dialogs(var context: Context) {
                     Toast.makeText(context, "You Unchecked ${list1[i]}", Toast.LENGTH_SHORT).show()
                 }
             }
-            .setPositiveButton("Accept") { _, i ->
+            .setPositiveButton("Accept") { _, _ ->
                 Toast.makeText(context, "You Accepted ", Toast.LENGTH_SHORT).show()
             }
             .setNegativeButton("Decline") { _, _ ->

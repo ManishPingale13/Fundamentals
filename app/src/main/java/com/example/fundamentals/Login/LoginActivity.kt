@@ -1,9 +1,11 @@
-package com.example.fundamentals
+package com.example.fundamentals.Login
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.fundamentals.Main.MainActivity
+import com.example.fundamentals.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
