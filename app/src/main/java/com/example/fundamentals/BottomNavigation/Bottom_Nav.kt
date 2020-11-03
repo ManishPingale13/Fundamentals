@@ -25,6 +25,11 @@ class Bottom_Nav : AppCompatActivity() {
             }
             true
         }
+
+        mybottomnavigation.getOrCreateBadge(R.id.message).apply {
+            number = 10
+            isVisible = true
+        }
     }
 
 
