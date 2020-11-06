@@ -21,9 +21,10 @@ class Pagerview : AppCompatActivity() {
         view_pager.adapter = adapter
 
         view_pager.orientation = ViewPager2.ORIENTATION_VERTICAL
-        view_pager.beginFakeDrag()
-        view_pager.fakeDragBy(-20f)
-        view_pager.endFakeDrag()
+
+//        view_pager.beginFakeDrag()
+//        view_pager.fakeDragBy(-20f)
+//        view_pager.endFakeDrag()
     }
 
 }
