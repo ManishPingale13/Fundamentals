@@ -4,9 +4,11 @@
       <w>addcontactdialog</w>
       <w>banglore</w>
       <w>bottomnav</w>
+      <w>currentimage</w>
       <w>currentuser</w>
       <w>firstfragment</w>
       <w>framelayout</w>
+      <w>itemview</w>
       <w>messi</w>
       <w>multichdilog</w>
       <w>mumbai</w>
@@ -15,9 +17,11 @@
       <w>mycheckbox</w>
       <w>myfragment</w>
       <w>myframelay</w>
+      <w>myimage</w>
       <w>mynavigation</w>
       <w>myrecycleview</w>
       <w>optiondialog</w>
+      <w>pagerview</w>
       <w>permissionbutton</w>
       <w>permissionstoreq</w>
       <w>requestpermissions</w>

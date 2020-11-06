@@ -18,6 +18,7 @@ import com.example.fundamentals.R
 import com.example.fundamentals.RecyclerView.ToDo
 import com.example.fundamentals.RecyclerView.TodoAdapter
 import com.example.fundamentals.Utils.Dialogs
+import com.example.fundamentals.ViewPager.Pagerview
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -147,6 +148,11 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Clicked Rate us", Toast.LENGTH_SHORT).show()
             R.id.feedback ->
                 Toast.makeText(this, "Clicked feedback", Toast.LENGTH_SHORT).show()
+
+            R.id.viewpager -> {
+                val intent = Intent(this, Pagerview::class.java)
+                startActivity(intent)
+            }
         }
         return true
     }

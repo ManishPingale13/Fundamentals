@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fundamentals">
-        <activity android:name=".BottomNavigation.Bottom_Nav"></activity>
+        <activity android:name=".ViewPager.Pagerview"></activity>
+        <activity android:name=".BottomNavigation.Bottom_Nav" />
         <activity android:name=".Fragment.FragmentsActivity" />
         <activity android:name=".Login.LoginActivity" />
         <activity android:name=".Main.MainActivity">

@@ -21,4 +21,10 @@
     <string name="messages_fragment">Messages Fragment</string>
     <string name="home_fragment">Home Fragment</string>
     <string name="users_fragment">Users Fragment</string>
+    <string name="view_pager">View Pager</string>
+    <string name="rate_us">Rate us</string>
+    <string name="feedback">Feedback</string>
+    <string name="favourite">Favourite</string>
+    <string name="add_contact">Add contact</string>
+    <string name="settings">Settings</string>
 </resources>
