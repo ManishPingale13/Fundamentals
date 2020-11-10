@@ -17,6 +17,7 @@ import com.example.fundamentals.Login.LoginActivity
 import com.example.fundamentals.R
 import com.example.fundamentals.RecyclerView.ToDo
 import com.example.fundamentals.RecyclerView.TodoAdapter
+import com.example.fundamentals.TabLayout.TabActivity
 import com.example.fundamentals.Utils.Dialogs
 import com.example.fundamentals.ViewPager.Pagerview
 import com.google.firebase.auth.FirebaseAuth
@@ -74,6 +75,11 @@ class MainActivity : AppCompatActivity() {
 
         bottomnav.setOnClickListener {
             val intent = Intent(this, Bottom_Nav::class.java)
+            startActivity(intent)
+        }
+
+        tablayout.setOnClickListener {
+            val intent = Intent(this, TabActivity::class.java)
             startActivity(intent)
         }
 
