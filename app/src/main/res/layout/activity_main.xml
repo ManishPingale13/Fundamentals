@@ -66,23 +66,23 @@
         android:id="@+id/bottomnav"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="8dp"
         android:text="@string/bottom_nav"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintHorizontal_bias="0.817"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/d3" />
+        app:layout_constraintTop_toBottomOf="@+id/fragment" />
 
     <Button
         android:id="@+id/fragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="4dp"
         android:text="@string/fragment"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintHorizontal_bias="0.773"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bottomnav" />
+        app:layout_constraintTop_toBottomOf="@+id/navdraw" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/myrecycleview"
@@ -102,6 +102,15 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/permissionbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/permissionbutton" />
+
+    <Button
+        android:id="@+id/navdraw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:text="Navigation Drawer"
+        app:layout_constraintBaseline_toBaselineOf="@+id/d1"
+        app:layout_constraintStart_toEndOf="@+id/d1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
