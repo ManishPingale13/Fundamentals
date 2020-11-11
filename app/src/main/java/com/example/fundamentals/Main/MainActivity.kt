@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.fundamentals.BottomNavigation.Bottom_Nav
 import com.example.fundamentals.Fragment.FragmentsActivity
 import com.example.fundamentals.Login.LoginActivity
+import com.example.fundamentals.NavigationDrawer.NavigationDrawer
 import com.example.fundamentals.R
 import com.example.fundamentals.RecyclerView.ToDo
 import com.example.fundamentals.RecyclerView.TodoAdapter
@@ -83,6 +84,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        navdraw.setOnClickListener {
+            val intent = Intent(this, NavigationDrawer::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun Permission1() = ActivityCompat.checkSelfPermission(
