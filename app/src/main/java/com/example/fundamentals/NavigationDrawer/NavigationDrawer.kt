@@ -6,6 +6,7 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.fundamentals.IntentServices.MyService
 import com.example.fundamentals.R
 import com.example.fundamentals.R.string.close
 import com.example.fundamentals.R.string.open
@@ -31,7 +32,10 @@ class NavigationDrawer : AppCompatActivity() {
                     val intent = Intent(this, SharedPref::class.java)
                     startActivity(intent)
                 }
-                R.id.i2 -> Toast.makeText(this, "Clicked Second Item", Toast.LENGTH_SHORT).show()
+                R.id.i2 -> {
+                    val intent = Intent(this, MyService::class.java)
+                    startActivity(intent)
+                }
 
                 R.id.i3 -> Toast.makeText(this, "Clicked Third Item", Toast.LENGTH_SHORT).show()
             }
