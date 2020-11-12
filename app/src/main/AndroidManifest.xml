@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fundamentals">
+        <activity android:name=".ServiceI.MyService" />
         <activity android:name=".Shared.SharedPref" />
         <activity android:name=".NavigationDrawer.NavigationDrawer" />
         <activity android:name=".TabLayout.TabActivity" />
