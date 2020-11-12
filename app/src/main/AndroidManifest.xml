@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Fundamentals">
+        <activity android:name=".IntentServices.MyService" />
         <activity android:name=".Shared.SharedPref" />
         <activity android:name=".NavigationDrawer.NavigationDrawer" />
         <activity android:name=".TabLayout.TabActivity" />
@@ -27,6 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name=".IntentServices.MyIntentService" />
     </application>
 
 </manifest>
