@@ -4,8 +4,11 @@
       <w>addcontactdialog</w>
       <w>banglore</w>
       <w>bottomnav</w>
+      <w>btnload</w>
+      <w>btnsave</w>
       <w>currentimage</w>
       <w>currentuser</w>
+      <w>datashowtxt</w>
       <w>drawerlay</w>
       <w>firstfragment</w>
       <w>framelayout</w>

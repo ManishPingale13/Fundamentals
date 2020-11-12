@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/i1"
-        android:title="@string/item_1" />
+        android:title="Shared Preferences" />
     <item
         android:id="@+id/i2"
         android:title="@string/item_2" />
