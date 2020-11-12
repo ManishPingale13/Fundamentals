@@ -1,5 +1,6 @@
 package com.example.fundamentals.NavigationDrawer
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
@@ -8,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.fundamentals.R
 import com.example.fundamentals.R.string.close
 import com.example.fundamentals.R.string.open
+import com.example.fundamentals.Shared.SharedPref
 import kotlinx.android.synthetic.main.activity_navigation_drawer.*
 
 class NavigationDrawer : AppCompatActivity() {
@@ -25,8 +27,10 @@ class NavigationDrawer : AppCompatActivity() {
 
         navView.setNavigationItemSelectedListener {
             when (it.itemId) {
-                R.id.i1 -> Toast.makeText(this, "Clicked First Item", Toast.LENGTH_SHORT).show()
-
+                R.id.i1 -> {
+                    val intent = Intent(this, SharedPref::class.java)
+                    startActivity(intent)
+                }
                 R.id.i2 -> Toast.makeText(this, "Clicked Second Item", Toast.LENGTH_SHORT).show()
 
                 R.id.i3 -> Toast.makeText(this, "Clicked Third Item", Toast.LENGTH_SHORT).show()
